@@ -1,0 +1,21 @@
+body {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.title {
+  color: rgb(109, 12, 117);
+}
+
+#title-input, #body-input, #btn {
+  padding: 1%;
+}
+
+#btn {
+  background-color: rgb(109, 12, 117);
+  color: white;
+}
+
+.post-container__div {
+  margin-bottom: 3.5%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="shortcut icon" href="#" type="image/svg">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1 class="title">Новый пост</h1>
+  <form class="container">
+    <input type="text" id="title-input" placeholder="Заголовок поста"/>
+    <input type="text" id="body-input" placeholder="Текст поста"/>
+    <button id="btn" class="button">Создать пост</button>
+  </form>
+
+  <div class="post-container">
+    <h2 class="post-container__title"></h2>
+    <p class="post-container__article"></p>
+  </div>
+
+  <p class="err-message"></p>
+  <script src="./assets/script/index.js"></script>
+</body>
+</html>
